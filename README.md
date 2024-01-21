@@ -8,8 +8,8 @@ _References_ - This analysis makes extensive use of [Sparre et al 2015](https://
 
 We can obtain two types of observational data of galaxies - <br>
 
-1. Photometric data (small) 
-2. Spectroscopic data (large)
+1. Photometric data (small) <br>
+2. Spectroscopic data (large) <br>
    
 Bayesian modeling of these data together will give us information about their Star-formation Histories (SFHs) as well as other internal properties like dust content, metal content, ages of stars, star-formation rates etc. <br>
 
@@ -43,17 +43,17 @@ We chose **BvrizYJ bands** for photometric modeling and **LEGA-C spectra + Bvriz
 
 ## Results 
 
-1. For Bayesian code 1 (BAGPIPES) -
-   a. SFHs from photometry only data are not able to recover higher moments of SFH as spectro-photometric data does.
-   b. Adding spectroscopic information is leading to expected correlation between ages (both mass and light weighted ages) and SFH PC0 coefficient q0, more so in the star-forming galaxies than in the quiescent galaxies.
-   c. Contours of photometry only data are primary concentrated around q0 = 0 indicating weak dependance on SFH, except the most massive bin (11.5 < M < 12) where quiescent galaxies show opposite dependence on the SFH.
-   d. Ages and Metallicites of most massive quiescent systems from photometric only data are not well recovered and require spectroscopic information. 
+1. For Bayesian code 1 (BAGPIPES) - <br>
+   a. SFHs from photometry only data are not able to recover higher moments of SFH as spectro-photometric data does. <br>
+   b. Adding spectroscopic information is leading to expected correlation between ages (both mass and light weighted ages) and SFH PC0 coefficient q0, more so in the star-forming galaxies than in the quiescent galaxies. <br>
+   c. Contours of photometry only data are primary concentrated around q0 = 0 indicating weak dependance on SFH, except the most massive bin (11.5 < M < 12) where quiescent galaxies show opposite dependence on the SFH. <br>
+   d. Ages and Metallicites of most massive quiescent systems from photometric only data are not well recovered and require spectroscopic information. <br>
 
-2. For Bayesian code 2 (PROSPECTOR) -
-   a. We know that PC0 contains the most information of the SFH variance and PC1/PC2 represent information in the higher modes.
-   b. Y-axis represents the direction of maximum information variance with respect to the mean SFH of the population.
-   c. Adding spectra definitely leads to better recovery of finer variations / higher moments of SFHs in the population, which are missed by photometric data.
-   d. Most massive galaxies (11.5 < M < 12) show the largest difference in Principal Components from photometric data and spectrophotometric data.
-   e. Early variablility of SFH is captured similarly in star-forming, partly owing to their young stellar populations. 
+2. For Bayesian code 2 (PROSPECTOR) - <br>
+   a. We know that PC0 contains the most information of the SFH variance and PC1/PC2 represent information in the higher modes.<br>
+   b. Y-axis represents the direction of maximum information variance with respect to the mean SFH of the population.<br>
+   c. Adding spectra definitely leads to better recovery of finer variations / higher moments of SFHs in the population, which are missed by photometric data.<br>
+   d. Most massive galaxies (11.5 < M < 12) show the largest difference in Principal Components from photometric data and spectrophotometric data.<br>
+   e. Early variablility of SFH is captured similarly in star-forming, partly owing to their young stellar populations. <br>
 
 
